@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        .company-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .company-list li {
+            margin-bottom: 10px;
+        }
+        .company-list a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .gallery img {
+            width: 100px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .details {
+            display: none;
+        }
+        .details:target {
+            display: block;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Company Profiles</h1>
+    <ul class="company-list">
+        <li><a href="#company1">Branch 1</a></li>
+        <li><a href="#company2">Branch 2</a></li>
+        <li><a href="#company3">Branch 3</a></li>
+    </ul>
+
+    <div id="company1" class="details">
+        <h2>Branch Details </h2>
+        <p>Industry: Technology</p>
+        <p>Location: Chennai</p>
+        <p>Size: 500+ employees</p>
+        <p>Description: A leading firm in innovative software solutions, specializing in AI and big data analytics.</p>
+        <div class="gallery">
+            <h4>Company Gallery</h4>
+            <img src=".jpg" alt="Company Image 1">
+            <img src="image2.jpg" alt="Company Image 2">
+            <img src="image3.jpg" alt="Company Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+
+    <div id="company2" class="details">
+        <h2>Branch Details</h2>
+        <p>Industry: Renewable Energy</p>
+        <p>Location: coimbathore</p>
+        <p>Size: 300+ employees</p>
+        <p>Description: Pioneers in the renewable energy sector, focusing on solar and wind energy solutions.</p>
+        <div class="gallery">
+            <h4>Company Gallery</h4>
+            <img src=".jpg" alt="Company Image 1">
+            <img src="image2.jpg" alt="Company Image 2">
+            <img src="image3.jpg" alt="Company Image 3">
+           
+        </div>
+    </div>
+
+    <div id="company3" class="details">
+        <h2>Branch Details</h2>
+        <p>Industry: E-commerce</p>
+        <p>Location: Kumbakonam</p>
+        <p>Size: 1000+ employees</p>
+        <p>Description: A fast-growing e-commerce platform that connects consumers with a wide range of products globally.</p>
+        <div class="gallery">
+            <h4>Company Gallery</h4>
+            <img src=".jpg" alt="Company Image 1">
+            <img src="image2.jpg" alt="Company Image 2">
+            <img src="image3.jpg" alt="Company Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</body>
+</html>

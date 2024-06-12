@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs in Demand</title>
+    <style>
+        body, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4000ff;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .job-listings {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .job-listings h2 {
+            margin-bottom: 10px;
+        }
+
+        .job-listings ul {
+            padding: 0;
+        }
+
+        .job-listings li {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .job-listings li img {
+            margin-right: 20px;
+            max-width: 260px; 
+            height: 200px;
+        }
+
+        .job-listings li div {
+            flex: 1;
+        }
+
+        .apply-button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jobs in Demand</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="career.html">Career Advice</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="job-listings">
+            <h2>Featured Jobs</h2>
+            <ul>
+                <li>
+                    <img src="uploads/softwar.jpg" alt="Software Engineer">
+                    <div>
+                        <h3>Software Engineer</h3>
+                        <p>Location: Anywhere</p>
+                        <p>Experience: 2+ years</p>
+                        <p>Skills: HTML, CSS, JavaScript</p>
+                        <p>Demand: High</p>
+                    </div>
+                    <a href="per.php"><button class="apply-button">Apply Now</button></a>
+                </li>
+                <li>
+                    <img src="uploads/marketing.jpg" alt="Marketing Manager">
+                    <div>
+                        <h3>Marketing Manager</h3>
+                        <p>Location: New York</p>
+                        <p>Experience: 5+ years</p>
+                        <p>Skills: Digital Marketing, SEO, SEM</p>
+                        <p>Demand: Medium</p>
+                    </div>
+                    <a href="per.php"><button class="apply-button">Apply Now</button></a>
+                </li>
+                <li>
+                    <img src="uploads/graphicdesign.jpg" alt="Graphic Designer">
+                    <div>
+                        <h3>Graphic Designer</h3>
+                        <p>Location: Los Angeles</p>
+                        <p>Experience: 3+ years</p>
+                        <p>Skills: Adobe Photoshop, Illustrator</p>
+                        <p>Demand: Medium</p>
+                    </div>
+                    <a href="per.php" class="apply-button">Apply Now</a>
+                </li>
+                <li>
+                    <img src="uploads/dataanalyst.jpg" alt="Data Analyst">
+                    <div>
+                        <h3>Data Analyst</h3>
+                        <p>Location: San Francisco</p>
+                        <p>Experience: 3+ years</p>
+                        <p>Skills: SQL, Python, Data Visualization</p>
+                        <p>Demand: High</p>
+                    </div>
+                    <a href="per.php"><button class="apply-button">Apply Now</button></a>
+                </li>
+                <li>
+                    <img src="uploads/webdeveloper.jpg" alt="Web Developer">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <p>Location: Chicago</p>
+                        <p>Experience: 3+ years</p>
+                        <p>Skills: JavaScript, React.js, Node.js</p>
+                        <p>Demand: High</p>
+                    </div>
+                    <a href="per.php"><button class="apply-button">Apply Now</button></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Job Search Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

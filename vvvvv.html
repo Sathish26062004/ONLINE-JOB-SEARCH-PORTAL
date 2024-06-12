@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Search</title>
+<style>
+body {
+    background-image: linear-gradient(to right top, #D91B23, #124FEB);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.search {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-1,
+.search-2 {
+    width: calc(50% - 10px);
+}
+
+.search-1 input,
+.search-2 input {
+    height: 45px;
+    border: none;
+    width: 100%;
+    padding-left: 34px;
+    padding-right: 10px;
+    border-right: 2px solid #eee;
+}
+
+.search-1 input:focus,
+.search-2 input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.search-1 i,
+.search-2 i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #eee;
+}
+
+.search-1 i {
+    left: 5px;
+}
+
+.search-2 i {
+    left: 18px;
+}
+
+::placeholder {
+    color: #eee;
+    opacity: 1;
+}
+
+.search-2 button {
+    height: 45px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    width: 90px;
+    border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+    .search-1 input {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .search-1 i {
+        left: 5px;
+    }
+
+    .search-2 i {
+        left: 4px;
+    }
+
+    .search-2 input {
+        padding-left: 34px;
+    }
+
+    .search-2 button {
+        height: 37px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="search-2">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="San Francisco, USA">
+            <button>Search</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
